@@ -283,7 +283,7 @@ const getEtherscanLikeAPIUrl = (network) => {
     case "bsc": return `https://api.bscscan.com/api`;
     case "matic": return `https://api.polygonscan.com/api`;
     case "mumbai": return `https://api-testnet.polygonscan.com/api`;
-    case "energywebchain": return `https://explorer.energyweb.org/api`;
+    case "energyweb": return `https://explorer.energyweb.org/api`;
     case "volta": return `https://volta-explorer.energyweb.org/api`;
     default: return `https://api-${network}.etherscan.io/api`;
   }
